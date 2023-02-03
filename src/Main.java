@@ -6,11 +6,11 @@ public class Main {
             int raus = zufallszahlGenerator.generiereZufallszahl(System.currentTimeMillis());
             //System.out.println(raus);
             wuerfel[0] = (raus % 6) + 1;
-            System.out.println("wuerfel 1 " + wuerfel[0]);
+            System.out.println("wuerfel 1: " + wuerfel[0]);
             java.util.concurrent.TimeUnit.SECONDS.sleep(1);
         }
         wuerfel[1] = (int) ((Math.random() * Integer.MAX_VALUE) % 6) + 1;
-        System.out.println("wuerfel 2" + wuerfel[1]);
+        System.out.println("wuerfel 2: " + wuerfel[1]);
 
     }
 
