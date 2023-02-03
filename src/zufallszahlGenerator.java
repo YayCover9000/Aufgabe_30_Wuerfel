@@ -1,4 +1,4 @@
-import java.lang.Math;
+import java.lang.Math;;
 public class zufallszahlGenerator {
     private static int shortPlaceHolder = 0;
     public static int generiereZufallszahl(long samen) {
